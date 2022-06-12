@@ -4,11 +4,11 @@ public class LiteService {
 
     private final String serviceName;
 
-    private final int status;
+    private final int serviceStatus;
 
     public LiteService(String service_name, int status) {
         this.serviceName = service_name;
-        this.status = status;
+        this.serviceStatus = status;
     }
 
 }
